@@ -1,14 +1,13 @@
 {
     "name": "pomelo-admin",
-    "version": "1.0.1",
+    "version": "0.5.3",
     "private": false,
     "dependencies": {
-        "mqtt-connection": "3.2.0",
-        "pomelo-scheduler": "0.3.8",
-        "pomelo-monitor": "0.3.7"
-    },
-    "peerDependencies": {
-        "pomelo-logger": "0.1.7"
+        "pomelo-scheduler": "git+https://github.com/irukandji/pomelo-scheduler.git",
+        "pomelo-monitor": "git+https://github.com/irukandji/pomelo-monitor.git",
+        "pomelo-logger": "git+https://github.com/irukandji/pomelo-logger.git",
+        "socket.io": "2.0.4",
+        "socket.io-client": "2.0.4"
     },
     "devDependencies": {
         "should": ">=0.0.1",
